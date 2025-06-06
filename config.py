@@ -1,1 +1,1 @@
-LOCAL_MODEL_PATH = "/content/drive/MyDrive/projetinho_de_ia/gemma_models/gemma-2b-it"
+LOCAL_MODEL_PATH = "model/path/here/gemma-2b-it"
