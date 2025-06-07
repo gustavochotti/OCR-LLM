@@ -5,11 +5,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 def install(command: str):
     try:
-        print(f"\n📦 Installing: {command}")
+        print(f"\nInstalling: {command}")
         subprocess.check_call([sys.executable, "-m", "pip", "install"] + command.split())
-        print(f"✅ Successfully installed: {command}\n")
+        print(f"Successfully installed: {command}\n")
     except subprocess.CalledProcessError as e:
-        print(f"❌ Failed to install '{command}': {e}")
+        print(f"Failed to install '{command}': {e}")
         sys.exit(1)
 
 def get_hf_token() -> str:
@@ -33,11 +33,11 @@ def download_and_save_model(model_id: str, save_path: str):
 
         print(f"\n✅ Model saved locally at: {save_path}")
     except Exception as e:
-        print(f"❌ Error while downloading the model: {e}")
+        print(f"Error while downloading the model: {e}")
         raise
 
 if __name__ == "__main__":
-    print("🚀 Setting up environment...")
+    print("Setting up environment...")
 
     # Step 1: Install dependencies
     install("torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121")
