@@ -141,7 +141,7 @@ Or automatically using `download_model.py`, which installs all requirements and 
 ---
 
 ## 📂 License
-This project is under the Apache 2.0 License. Refer to each model’s license on Hugging Face for usage terms.
+This project is under the MIT License. Refer to each model’s license on Hugging Face for usage terms.
 
 ---
 
