@@ -14,9 +14,11 @@ ocr2llm/
 ├── torch_utils.py          # GPU/dtype helpers
 │
 ├── examples/
+│   ├── __init__.py  
 │   └── main.py             # Minimal direct usage example
 │
 ├── tests/
+│   ├── __init__.py
 │   ├── test_exceptions.py
 │   └── test_integration.py
 │
