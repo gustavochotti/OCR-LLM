@@ -1,4 +1,8 @@
-# test_exceptions.py
+# tests/test_exceptions.py
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import pytest
 from exceptions import OCRProcessingError, ResponseGenerationError
 from ocr_utils import read_image
