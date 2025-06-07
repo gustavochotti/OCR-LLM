@@ -1,4 +1,4 @@
-# OCR-LLM
+# ocr2llm
 
 A professional-grade OCR + LLM pipeline combining EasyOCR and Gemma-2B-IT to extract text from images and process it with a large language model.
 
