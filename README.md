@@ -28,7 +28,7 @@ ocr-llm/
 
 ---
 
-## Clone the Repository
+## 📥 Clone the Repository
 ```bash
 git clone https://github.com/gustavochotti/ocr2llm.git
 cd ocr2llm
