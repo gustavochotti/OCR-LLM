@@ -67,11 +67,7 @@ python -m cli --image example.png --prompt "Summarize this text:"
 
 ### Full example
 ```bash
-python -m cli \
-  --image images/receipt.jpg \
-  --prompt "List all prices and total." \
-  --max_tokens 512 \
-  --output
+python -m cli --image images/receipt.jpg --prompt "List all prices and total." --max_tokens 512 --output
 ```
 
 #### Output (example)
