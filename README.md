@@ -25,6 +25,11 @@ ocr-llm/
 ├── download_model.py       # Setup script to install deps & download model
 ├── README.md               # This file
 ```
+## Clone the Repository
+```bash
+git clone https://github.com/gustavochotti/ocr2llm.git
+cd ocr2llm
+```
 
 ## 🔧 Installation & Setup
 
