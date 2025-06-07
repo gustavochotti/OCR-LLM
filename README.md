@@ -145,4 +145,4 @@ This project is under the Apache 2.0 License. Refer to each model’s license on
 ## ⭐️ Star This Repo
 If you found this useful, consider giving it a star!
 
-> Built with ❤️ by [Your Name] – fine-tuned for OCR + LLM workflows.
+> Built with ❤️ by Gustavo Chotti – fine-tuned for OCR + LLM workflows.
