@@ -1,6 +1,6 @@
 # ocr2llm
 
-A professional-grade OCR + LLM pipeline combining EasyOCR and Gemma-2B-IT to extract text from images and process it with a large language model.
+A professional-grade OCR + LLM pipeline combining EasyOCR and Gemma-2B-IT to extract text from images and process it with a large language model. It enables use cases such as automatic summarization of scanned documents, information extraction from receipts or invoices, image-to-text transformation for accessibility, and custom prompting over OCR-extracted content for downstream language processing tasks.
 
 ## 📦 Project Structure
 
