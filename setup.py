@@ -5,7 +5,7 @@ def install():
   try:
     print(f"Installing: {command}")
     subprocess.check_call([sys.executable, "-m", "pip", "install"] + comando.split())
-    # print(f"Succesfully installed: {comando}\n")
+    # print(f"Succesfully installed: {command}\n")
   except subprocess.CalledProcessError as e:
     print(f"Failed to execute command: {e}")
     sys.exit(1)
