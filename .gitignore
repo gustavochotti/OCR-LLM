@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.venv.bak/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# PyInstaller
+*.spec
+
+# Logs and runtime files
+*.log
+*.pid
+*.seed
+*.bak
+*.tmp
+
+# Test / coverage outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+pytest_cache/
+coverage.xml
+
+# Package builds
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Response and generated files
+response.txt
