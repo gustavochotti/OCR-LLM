@@ -1,3 +1,6 @@
+# requirements.txt
 transformers
 easyocr
 Pillow
+pytest
+opencv-python
