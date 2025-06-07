@@ -5,7 +5,7 @@ A professional-grade OCR + LLM pipeline combining EasyOCR and Gemma-2B-IT to ext
 ## 📦 Project Structure
 
 ```
-ocr-llm/
+ocr2llm/
 ├── cli.py                  # Main CLI interface
 ├── config.py               # Configs (e.g., model path)
 ├── exceptions.py           # Custom exception classes
@@ -19,6 +19,9 @@ ocr-llm/
 ├── tests/
 │   ├── test_exceptions.py
 │   └── test_integration.py
+│
+├── images/
+│   └── receipt.jpg         # Example image
 │
 ├── requirements.txt        # Dependencies
 ├── .gitignore              # Git exclusions
